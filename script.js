@@ -1,43 +1,43 @@
 const localQuotes = [
   {
-    text: "Genius is one percent inspiration and ninety-nine percent perspiration.",
-    author: "Thomas Edison",
+    text: "Nada é mais precioso do que a luz; mas o excesso ofusca.",
+    author: "Textos Judaicos",
   },
   {
-    text: "You can observe a lot just by watching.",
-    author: "Yogi Berra",
+    text: "O supremo alicerce e pilar da sabedoria é a percepção de que há um primeiro Ser, sem princípio nem fim, que trouxe tudo à existência e continua a sustentá-la. Este Ser é Deus.",
+    author: "Maimônides",
   },
   {
-    text: "A house divided against itself cannot stand.",
-    author: "Abraham Lincoln",
+    text: "A soma de toda evidência é esta: Reverencie a D'us e cumpra Seus mandamentos; pois este é o propósito da vida do homem.",
+    author: "Cohêlet",
   },
   {
-    text: "Difficulties increase the nearer we get to the goal.",
-    author: "Johann Wolfgang von Goethe",
+    text: "Deus tem compaixão como um pai, e conforta como uma mãe.",
+    author: "Pesikta Rabati",
   },
   {
-    text: "Fate is in your hands and no one elses",
-    author: "Byron Pulsifer",
+    text: "Deus, bendito seja, não retira a recompensa de nenhuma criatura, por qualquer ato positivo.",
+    author: "Talmud-Bava Kama",
   },
   {
-    text: "Be the chief but never the lord.",
-    author: "Lao Tzu",
+    text: "Vista um casaco e você ficará aquecido. Acenda um fogo e aquecerá os outros.",
+    author: "Provérbio Judaico",
   },
   {
-    text: "Nothing happens unless first we dream.",
-    author: "Carl Sandburg",
+    text: "Cada pessoa é um mundo inteiro. Faça um favor a uma pessoa, e faça um mundo de diferença.",
+    author: "Provérbio Judaico",
   },
   {
-    text: "Well begun is half done.",
-    author: "Aristotle",
+    text: "“O dia de hoje jamais acontecerá novamente. Mas uma boa ação pode fazê-lo durar para sempre.",
+    author: "Provérbio Judaico",
   },
   {
-    text: "Life is a learning experience, only if you learn.",
-    author: "Yogi Berra",
+    text: "O autocontrole é saber que você pode, mas decide que não o fará.",
+    author: "Provérbio Judaico",
   },
   {
-    text: "Self-complacency is fatal to progress.",
-    author: "Margaret Sangster",
+    text: "A sabedoria não pode ser medida em pensamento abstrato, mas sim em ação adequada.",
+    author: "Provérbio Judaico",
   },
   {
     text: "Peace comes from within. Do not seek it without.",
@@ -61,15 +61,15 @@ const localQuotes = [
   },
   {
     text: "Today is the tomorrow we worried about yesterday.",
-    author: null,
+    author: null
   },
   {
     text: "It's easier to see the mistakes on someone else's paper.",
-    author: null,
+    author: null
   },
   {
     text: "Every man dies. Not every man really lives.",
-    author: null,
+    author: null
   },
   {
     text: "To lead people walk behind them.",
@@ -109,7 +109,7 @@ const localQuotes = [
   },
   {
     text: "The day is already blessed, find peace within it.",
-    author: null,
+    author: null
   },
   {
     text: "From error to error one discovers the entire truth.",
@@ -145,7 +145,7 @@ const localQuotes = [
   },
   {
     text: "From small beginnings come great things.",
-    author: null,
+    author: null
   },
   {
     text: "Learning is a treasure that will follow its owner everywhere",
@@ -581,7 +581,7 @@ function newQuote() {
   const quote = localQuotes[Math.floor(Math.random() * localQuotes.length)];
   // Check if Author field is blank and replace it with 'Unknown'
   if (!quote.author) {
-    authorText.textCOntent = "Unknow";
+    authorText.textCOntent = "Desconhecido";
   } else {
     authorText.textContent = quote.author;
   }
